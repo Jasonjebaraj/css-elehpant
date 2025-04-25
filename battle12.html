@@ -1,0 +1,144 @@
+
+<style>
+    *{
+      margin:0px;
+    }
+    .bg {
+      width: 100%;
+      height: 100dvh;
+      background: #998235;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+    }
+    .center{
+      
+      position:relative;
+    }
+    .head{
+      height:180px;
+      width:180px;
+      background:#1A4341;
+      border-radius:50%;
+      position:relative;
+      z-index:2;
+    }
+    .ear1{
+      height:180px;
+      width:80px;
+      background:#1A4341;
+      border-radius:50%;
+      position:absolute;
+      left:-60px;
+      overflow:hidden;
+    }
+    .ear_black1{
+      height:180px;
+      width:63px;
+      background:#0B2429;
+      border-radius:50%;
+      position:absolute;
+      right:1px;
+    }
+    .ear2{
+      height:180px;
+      width:80px;
+      background:#1A4341;
+      border-radius:50%;
+      position:absolute;
+      top:0px;
+      left:160px;
+      overflow:hidden;
+    }
+    .ear_black2{
+      height:180px;
+      width:63px;
+      background:#0B2429;
+      border-radius:50%;
+      position:absolute;
+      left:1px;
+    }
+    .eye1{
+      height:40px;
+      width:40px;
+      background:linear-gradient( to top,  #998235 50%,#1A4341 50%);
+      border-radius:50%;
+      position:absolute;
+      top:70px;
+      left:40px;
+      
+    }
+    .eye_black{
+      height:20px;
+      width:20px;
+      background:linear-gradient( to top,  #0B2429 50%,#1A4341 50%);
+      border-radius:50%;
+      position:absolute;
+      top:10px;
+      left:10px;
+    }
+    .eye2{
+      height:40px;
+      width:40px;
+      background:linear-gradient( to top,  #998235 50%,#1A4341 50%);
+      border-radius:50%;
+      position:absolute;
+      top:70px;
+      left:100px;
+      
+    }
+    .eye_black{
+      height:20px;
+      width:20px;
+      background:linear-gradient( to top,  #0B2429 50%,#1A4341 50%);
+      border-radius:50%;
+      position:absolute;
+      top:10px;
+      left:10px;
+    }
+    .trunk{
+      position:absolute;
+      bottom:-70px;
+      left:30;
+      height:80px;
+      width:80px;
+      border:solid 20px #FFFFFF;
+      border-radius:50%;
+      border-image:linear-gradient(to top,#998235 50%,#FFFFFF 50%)1;
+      
+      
+    }
+    .nose{
+      height:150px;
+      width:40px;
+      background:#0B2429;
+      position:absolute;
+      left:20px;
+      top:-30px;
+      border-radius:50px;
+    }
+  </style>
+  <div class="bg">
+    <div class="center">
+      <div class="ear1">
+        <div class="ear_black1"></div>
+      </div>
+      <div class="head">
+        <div class="eye1">
+          <div class="eye_black"></div>
+        </div>
+        <div class="eye2">
+          <div class="eye_black"></div>
+        </div>
+        <div class="trunk">
+          <div class="nose"></div>
+        </div>
+      </div>
+      <div class="ear2">
+        <div class="ear_black2"></div>
+      </div>
+    </div>
+  </div>
+  
+  
+  
